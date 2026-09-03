@@ -1,0 +1,27 @@
+{
+  "name": "rbac",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Compass Group Centralized RBAC Platform",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "npm run dev --workspace=@compass/rbac-console",
+    "build": "npm run build --workspace=@compass/rbac-console",
+    "start": "npm run start --workspace=@compass/rbac-console",
+    "lint": "npm run lint --workspace=@compass/rbac-console",
+    "typecheck": "npm run typecheck --workspace=@compass/rbac-console",
+    "db:generate": "node db/seed/generate.mjs"
+  },
+  "overrides": {
+    "postcss": "^8.5.23"
+  },
+  "devDependencies": {
+    "puppeteer": "^25.9.0"
+  }
+}

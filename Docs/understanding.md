@@ -269,3 +269,5 @@ erDiagram
         2.  Its screens, actions, and permissions.
         3.  `SUPER_ADMIN` role with 100% permission coverage.
         4.  Initial Super Admin user assignment.
+
+export PATH="/tmp/claude-1000/-home-hubhikainha-RBAC/975029ec-4b21-47f3-8a50-23ff18fd492d/scratchpad/node-v22.14.0-linux-x64/bin:$PATH"
